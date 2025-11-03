@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import RoutesMap from "./components/RoutesMap";
+import SensoryStories from "./components/SensoryStories";
 import Craftspersons from "./components/Craftspersons";
 import Impact from "./components/Impact";
 import { Quote } from "lucide-react";
@@ -9,6 +10,7 @@ export default function App() {
     <div className="min-h-screen bg-white text-gray-900">
       <Hero />
       <RoutesMap />
+      <SensoryStories />
       <Craftspersons />
       <Impact />
 
@@ -19,7 +21,7 @@ export default function App() {
             <div>
               <h3 className="font-semibold text-gray-900">Reflection</h3>
               <p className="mt-2 text-sm sm:text-base text-gray-700">
-                What can designers learn from traditional material relationships? How does your purchasing power shape which crafts survive? Walk with curiosity, pay fairly, and share your learnings.
+                What childhood smell does this market remind you of? Who would you share this handiwork with? How can you support the local artisan economy today and next month?
               </p>
             </div>
           </div>
@@ -28,7 +30,7 @@ export default function App() {
             <a href="#crafts" className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-emerald-700 font-medium ring-1 ring-emerald-200 hover:bg-emerald-50">Support a craftsperson</a>
           </div>
         </div>
-        <p className="mt-6 text-center text-xs text-gray-500">© {new Date().getFullYear()} Heritage Walk Pune — Action‑oriented, fast, and multilingual.</p>
+        <p className="mt-6 text-center text-xs text-gray-500">© {new Date().getFullYear()} Heritage Walk Pune — Sensory, action‑oriented, and multilingual.</p>
       </section>
     </div>
   );

@@ -1,4 +1,4 @@
-import { Map, ShoppingBag, ArrowRight, Layers3, Languages } from "lucide-react";
+import { Map, ShoppingBag, Headphones, Languages } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -23,43 +23,31 @@ export default function Hero() {
         <div className="mt-8 sm:mt-12 grid sm:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900">
-              Walk the old city. Fund living craft economies.
+              A sensory heritage walk through Pune’s craft districts
             </h1>
             <p className="mt-4 text-base sm:text-lg text-gray-600">
-              Turn every step into support for Pune’s potters, coppersmiths, basket weavers, and food heritage. Fast, mobile-first routes with clear actions to buy, learn, walk, and share.
+              Discover Tambat Ali’s metal rhythms, Kumbharwada’s clay, basket makers’ textures, Wada courtyards’ visual drama, and Mandai’s seasonal tastes. Walk, listen, and support local livelihoods.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a href="#routes" className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2 text-white font-medium shadow-sm hover:bg-emerald-700 active:bg-emerald-800">
-                <Map className="h-4 w-4" /> Start a walk
+                <Map className="h-4 w-4" /> Start a route
+              </a>
+              <a href="#stories" className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-emerald-700 font-medium ring-1 ring-emerald-200 hover:bg-emerald-50">
+                <Headphones className="h-4 w-4" /> Listen & explore
               </a>
               <a href="#crafts" className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-emerald-700 font-medium ring-1 ring-emerald-200 hover:bg-emerald-50">
                 <ShoppingBag className="h-4 w-4" /> Buy from artisans
               </a>
             </div>
-            <div className="mt-6 flex items-center gap-4 text-sm text-gray-600">
-              <div className="flex items-center gap-1">
-                <Layers3 className="h-4 w-4 text-emerald-600" />
-                Three content layers
-              </div>
-              <div className="flex items-center gap-1">
-                <Map className="h-4 w-4 text-emerald-600" />
-                GPS-friendly
-              </div>
-            </div>
           </div>
 
           <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden ring-1 ring-emerald-100 shadow-sm bg-white">
             <img
-              src="https://images.unsplash.com/photo-1564577160336-26fe8f74f973?q=80&w=1200&auto=format&fit=crop"
-              alt="Pune old city street with crafts"
+              src="https://images.unsplash.com/photo-1548587622-2d0f2b07e6c8?q=80&w=1200&auto=format&fit=crop"
+              alt="Craft district collage"
               className="h-full w-full object-cover"
               loading="lazy"
             />
-            <div className="absolute bottom-3 right-3">
-              <a href="#impact" className="inline-flex items-center gap-2 bg-emerald-700 text-white text-xs px-3 py-1.5 rounded-full shadow">
-                See monthly impact <ArrowRight className="h-3 w-3" />
-              </a>
-            </div>
           </div>
         </div>
       </div>
